@@ -312,8 +312,12 @@ html, body, .container
     font-size: 16px;
 }
 
-.padpadpad{
+
+
+@media screen and (min-width: 767px) {
+	.padpadpad{
 	padding-left: 10%;
 	padding-right: 10%;
+}
 }
 
