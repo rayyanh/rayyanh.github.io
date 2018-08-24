@@ -320,4 +320,13 @@ html, body, .container
 	padding-right: 10%;
 }
 }
+/* unvisited link */
+.whitelink:link {
+    color: white;
+}
+
+/* visited link */
+.whitelink:visited {
+    color: white;
+}
 
