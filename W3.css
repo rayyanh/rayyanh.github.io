@@ -329,7 +329,7 @@ html, body, .container
 .whitelink:visited {
     color: white;
 }
-
+/*Hover stuff; kinda made mobile a mess*/
 .container2 {
   position: relative;
   width: 50%;
@@ -369,3 +369,5 @@ html, body, .container
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/*End hover ish*/
