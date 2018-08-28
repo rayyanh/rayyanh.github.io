@@ -150,7 +150,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .w3-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#795548!important}
-.w3-cyan,.w3-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.w3-cyan,.w3-hover-cyan:hover{color:#000!important;background-color:#4291e5!important}
 .w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
 .w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
 .w3-light-green,.w3-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
@@ -180,7 +180,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-blue,.w3-hover-text-blue:hover{color:#2196F3!important}
 .w3-text-light-blue,.w3-hover-text-light-blue:hover{color:#87CEEB!important}
 .w3-text-brown,.w3-hover-text-brown:hover{color:#795548!important}
-.w3-text-cyan,.w3-hover-text-cyan:hover{color:#00bcd4!important}
+.w3-text-cyan,.w3-hover-text-cyan:hover{color:#4291e5!important}
 .w3-text-blue-grey,.w3-hover-text-blue-grey:hover,.w3-text-blue-gray,.w3-hover-text-blue-gray:hover{color:#607d8b!important}
 .w3-text-green,.w3-hover-text-green:hover{color:#4CAF50!important}
 .w3-text-light-green,.w3-hover-text-light-green:hover{color:#8bc34a!important}
@@ -206,7 +206,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-blue,.w3-hover-border-blue:hover{border-color:#2196F3!important}
 .w3-border-light-blue,.w3-hover-border-light-blue:hover{border-color:#87CEEB!important}
 .w3-border-brown,.w3-hover-border-brown:hover{border-color:#795548!important}
-.w3-border-cyan,.w3-hover-border-cyan:hover{border-color:#00bcd4!important}
+.w3-border-cyan,.w3-hover-border-cyan:hover{border-color:#4291e5!important}
 .w3-border-blue-grey,.w3-hover-border-blue-grey:hover,.w3-border-blue-gray,.w3-hover-border-blue-gray:hover{border-color:#607d8b!important}
 .w3-border-green,.w3-hover-border-green:hover{border-color:#4CAF50!important}
 .w3-border-light-green,.w3-hover-border-light-green:hover{border-color:#8bc34a!important}
@@ -235,7 +235,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00bcd4;
+    background-color: #4291e5;
 }
 li {
     float: left;
@@ -252,7 +252,7 @@ li a:hover {
 }
 .port1{
 	text-align: center;
-	color: #00bcd4;
+	color: #4291e5;
 	padding-top: 50px;
 }
 .addpadportpic{
@@ -285,7 +285,7 @@ html, body, .container
     float: right;
     width: 80%;
     height: 80%;
-    background-color: #00bcd4;
+    background-color: #4291e5;
 }
 
 .fourth {
@@ -304,7 +304,7 @@ html, body, .container
 .buttonindex {
     background-color: white; /* Green */
     border: none;
-    color: #00bcd4;
+    color: #4291e5;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -351,7 +351,7 @@ html, body, .container
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #00bcd4;
+  background-color: #4291e5;
 }
 
 .container2:hover .overlay {
@@ -371,3 +371,22 @@ html, body, .container
 }
 
 /*End hover ish*/
+
+.buttonmain {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3, h4{
+	font-family: 'Roboto Slab', serif;
+}
