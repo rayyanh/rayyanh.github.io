@@ -393,3 +393,7 @@ h1, h2, h3, h4{
 .hotpink{
 	color: #EA3B70;
 }
+
+.imgabout {
+    border-radius: 50%;
+}
