@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
+<!-- Setting up basic information for the page below -->
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +8,7 @@
     <title>HEARD - A sexual assault reporting and resource tool</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Using bootstrap.css framework (available as open source, free to view in CSS folder) -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/clean-blog.css">
     <link rel="shortcut icon" href="img/heard.png" />
@@ -17,14 +19,14 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="index1.html">H E A R D</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu -->
+            <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="" id="">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index1.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#resources">Resources</a>
@@ -46,6 +48,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
+                <!-- Formatted to fill page but not take up whole page for accessibility and fluidity -->
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
                         <h2>Welcome to <strong>HEARD</strong></h2>
@@ -55,9 +58,8 @@
             </div>
         </div>
     </header>
-    <!-- Report -->
+    <!-- Main container to cover full page -->
     <div class="container">
-
         <!-- Resources -->
         <div id="resources">
             <h3 class="secondaryColor">Resources</h3>
@@ -67,20 +69,13 @@
             <p><strong>NSPCC Sexual Assault Hotline: </strong> 0808 800 5000</p>
             <p><strong>World Health Organization: </strong> 0045 4533 7000</p>
             <p><strong>UNICEF: </strong> 0300 330 5580</p>
-
-
             <p>Please contact your local police if you are in danger or in possibility of harms way. </p>
-
-
-
         </div>
         <h3 id="aboutus" class="secondaryColor">What we do and how it works</h3>
         <p>HEARD is the global leader in sexual assault reporting for women. Simply put, we are for you when you are ready to tell your story. Go ahead and write what you want and share it with who you want. Don’t worry if you want to change your sharing
             preferences you will always be able to release the information you want at a later date. We know that reporting violence isn’t easy, but we hope to make it as comfortable of an experience as possible. We also promise that your submission will
             never be censored or changed by any government agency, police force or otherwise given out. Your story is yours and you should be able to tell it. By you doing this, the world will know how prevalent sexual assault really is and only then
             can we address the full breadth of the problem, once it's understood. So we’re here to listen and to help. You will be heard.</p>
-
-
 
         <!-- Actual form -->
         <div id="report">
@@ -116,7 +111,6 @@
                 <div class="form-group">
                     <label>Tell us about your story</label>
                     <textarea class="form-control" rows="8" placeholder="Enter text here" required></textarea>
-                    <!-- <small class="form-text text-muted">We'll never share your name with anyone else.</small> -->
                 </div>
                 <label>Where would you like to report to?</label>
                 <br>
@@ -147,7 +141,6 @@
                     </div>
                     <small class="form-text text-muted">Note: We will be storing your general location (within 5 mile radius) for analysis purposes. Your location will
                         never be shared.</small>
-                    <!-- <p class="btn btn-primary" style="background: #b54440;">Submit to Blockchain</p> -->
                     <div class="form-group">
                         <label>Contact Information</label>
                         <input class="form-control" type="text" placeholder="Phone number or valid email address. ">
@@ -165,7 +158,6 @@
                     <span class="close">&times;</span>
                     <h1 class="secondaryColor">Your information was safely uploaded to the blockchain</h1>
                     <p>Here is your public key if you would like to access in the future:</p>
-                    <!-- <textarea rows="3" placeholder="00d32b7c09e8747908b1ed9dbc893ff33987b2275bb3401cd5199f45b1bbbc7d75" readonly></textarea> -->
                     <input class="form-control" type="text" placeholder="00d32b7c09e8747908b1ed9dbc893ff33987b2275bb3401cd5199f45b1bbbc7d75" readonly>
                     <p>Here is your private key</p>
                     <input class="form-control" type="text" placeholder="00d32b7c09e8747908b1ed9dbc893ff33987b2275bb3401cd5199f45b1bbbc7d75" readonly>
@@ -173,7 +165,6 @@
                     <br>
                 </div>
                 <!-- End modal -->
-
             </div>
         </div>
     </div>
@@ -185,26 +176,17 @@
 
     <script src="" async defer></script>
 </body>
+<!-- JS to pop up modal, very quick and does not effect  -->
 <script>
     var modal = document.getElementById('myModal');
-
-    // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on the button, open the modal 
     btn.onclick = function() {
         modal.style.display = "block";
     }
-
-    // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
     }
-
-    // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
