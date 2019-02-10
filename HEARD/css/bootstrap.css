@@ -10268,3 +10268,8 @@ html {
     text-decoration: none;
     cursor: pointer;
 }
+
+#mapid {
+    height: 300px;
+    margin-bottom: 20px;
+}
